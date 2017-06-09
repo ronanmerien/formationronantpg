@@ -1,0 +1,126 @@
+
+body {
+    background-color: #01B0F0;
+}
+html{
+    font: 1.1em sans-serif;
+    background: #191919;
+}
+h1 { color: #CEF0D4; font-family: 'Rouge Script', cursive; font-size: 130px; font-weight: normal; line-height: 48px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #082b34; }
+
+
+h2 { color: #a7e8f8; font-family: 'Julius Sans One', sans-serif; font-size: 22px; font-weight: bold; line-height: 32px; margin: 0 0 24px; text-shadow: 1px 1px 1px #082b34; }
+
+
+p { color: #FFFFFF; font-family: 'Merriweather', serif; font-size: 20px; font-weight: 300; line-height: 40px; margin: 0 30px 40px; text-align: center; text-shadow: #2a8d7b -1px -1px; }}
+
+
+a { color: #CEF0D4; text-decoration: underline; }
+
+
+a:hover { color: #a7e8f8; text-decoration: underline; }
+
+
+
+ul{
+    display: table;
+    width: 500px;
+    margin: 100px auto;
+    padding: 0;
+    background: linear-gradient(deepskyblue, dodgerblue);
+    background: -webkit-linear-gradient(deepskyblue, dodgerblue);
+    background:    -moz-linear-gradient(deepskyblue, dodgerblue);
+    background:     -ms-linear-gradient(deepskyblue, dodgerblue);
+    background:      -o-linear-gradient(deepskyblue, dodgerblue);
+    background:         linear-gradient(deepskyblue, dodgerblue);
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+}
+
+
+
+ul li{
+    display: table-cell;
+}
+
+
+ul li a{
+    display: block;
+    text-align: center;
+    color: rgba(0, 0, 0, .7); 
+    text-decoration: none;
+    padding: 8px 8px 17px 8px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+                0 -1px 0 hsl(210, 100%, 32%) inset, 
+                0 -2px 0 hsl(210, 100%, 38%) inset, 
+                0 -3px 0 hsl(210, 100%, 44%) inset, 
+                0 -4px 0 hsl(210, 100%, 50%) inset, 
+                0 -5px 0 hsl(210, 100%, 60%) inset;
+transition: padding .3s;
+transition: all .3s .1s;
+position: relative;
+}
+
+ul li:first-child a{
+    border-radius: 3px 0 0 3px;
+}
+ul li:last-child a{
+    border-radius: 0 3px 3px 0;
+}
+
+ul li a:hover, 
+ul li a:focus{
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+                0 -1px 0 hsl(210, 100%, 42%) inset, 
+                0 -2px 0 hsl(210, 100%, 48%) inset, 
+                0 -3px 0 hsl(210, 100%, 54%) inset, 
+                0 -4px 0 hsl(210, 100%, 60%) inset, 
+                0 -5px 0 hsl(210, 100%, 70%) inset; 
+padding: 8px 25px 17px 25px;
+transition: all .3s 0s;
+} 
+
+ul li a:active{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
+
+ul li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    margin-left: -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5);
+}
+
+ul li a:hover::before,
+ul li a:focus::before{
+    background: white;
+    box-shadow: 0 0 2px white, 
+                0 -1px 0 rgba(0, 0, 0, .4);
+}
+
+footer { 
+    background:#191919;
+  color:#fff;
+  margin:0;
+  @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+
+}
