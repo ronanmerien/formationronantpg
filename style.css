@@ -61,3 +61,13 @@ input {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
     transition: 0.3s;
 }
+
+@keyframes transa {
+    from {}
+    to {background-color: #6654B2; color: #fff;}
+}
+
+@keyframes transb {
+    from {background-color: #6654B2; color: #fff;}
+    to {}
+}
