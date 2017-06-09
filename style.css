@@ -32,6 +32,10 @@ a:hover {
     transition: 0.3s;
 }
 
+.selected {
+    color: #6654B2;
+}
+
 .menu {
     margin: 50px;
 }
@@ -62,12 +66,53 @@ input {
     transition: 0.3s;
 }
 
-@keyframes transa {
-    from {}
-    to {background-color: #6654B2; color: #fff;}
+.coque {
+    background-color: #fff;
+    border: 1px solid #6654B2;
+    height: 200px;
+    width: 120px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ecran {
+    background-color: #1D1547;
+    height: 150px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 20px;
+}
+
+.button {
+    background-color: #1D1547;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 28px;
+}
+
+@keyframes phonetra {
+    from {background-color: #fff; border: 1px solid #6654B2;}
+    to {background-color: #6654B2; border: 1px solid #fff;}
+}
+
+@keyframes phonetrb {
+    from {background-color: #6654B2; border: 1px solid #fff;}
+    to {background-color: #fff; border: 1px solid #6654B2;}
 }
 
 @keyframes transb {
     from {background-color: #6654B2; color: #fff;}
     to {}
+}
+
+@keyframes transa {
+    from {}
+    to {background-color: #6654B2; color: #fff;}
 }
