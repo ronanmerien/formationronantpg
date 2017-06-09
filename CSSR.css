@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+h2 {
+    color: blue;
+    text-align: left;
+}
+.div{
+	border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 600px;
+}
+.butBuy{
+	background: green; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, green , blue); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, green, blue); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, green, blue); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, green , blue); /* Standard syntax */
+  	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button{
+	background: red; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.form {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 250px;
+    height: 220px; 
+}
+
+.forminput{
+	float :right;
+}
